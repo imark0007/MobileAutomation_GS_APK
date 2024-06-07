@@ -27,8 +27,8 @@ public class AppTest {
         desiredCapabilities.setCapability("platformName", "android");
         desiredCapabilities.setCapability("appium:automationName", "UiAutomator2");
         desiredCapabilities.setCapability("appium:deviceName", "local");
-        //        desiredCapabilities.setCapability("appium:udid", "adb devices name");
-        desiredCapabilities.setCapability("appium:udid", "emulator-5554"); //adb devices name : emulator-5554
+        //        desiredCapabilities.setCapability("appium:udid", "adb device or emolator udid");
+        desiredCapabilities.setCapability("appium:udid", "emulator-5554"); //adb device or emolator udid : emulator-5554
         desiredCapabilities.setCapability("appium:appPackage", "com.androidsample.generalstore");
         desiredCapabilities.setCapability("appium:appActivity", "com.androidsample.generalstore.SplashActivity");
         desiredCapabilities.setCapability("appium:app", APK.getAbsolutePath());
