@@ -1,4 +1,4 @@
-# MobileAutomation_GS_APK Tutorial
+# MobileAutomation_GS_APK
 
 ## Overview
 
@@ -158,22 +158,22 @@ git clone https://github.com/imark0007/MobileAutomation_GS_APK.git
 ### T**o show connected/active adb devices with their Unique Device Identifier(udid)**
 
 ```bash
-**adb devices**
+adb devices
 ```
 
 ### Install APK ⇒ Many ways! you can do that
 
-→ Drag and Drop the apk file inside the emulator
-→ Install using play store
-→ Download apk file using emulator browser than install
-→ transfer apk file to emulator storage location than install
-→ Install using cmd by the helping of adb(**Android Debug Bridge**)
+ - Drag and Drop the apk file inside the emulator
+ - Install using play store 
+ - Download apk file using emulator browser than install 
+ - transfer apk file to emulator storage location than install 
+ - Install using cmd by the helping of adb(**Android Debug Bridge**)
 
 ```bash
 # if only one adb device connected to your computer 
-adb install "path to .apk"
+  adb install "path to .apk"
 # if multiple device are connected 
-adb -s "device-udid" install "path to .apk"  #-s source/serialNumber/Identifier
+  adb -s "device-udid" install "path to .apk"  #-s source/serialNumber/Identifier
 # optional options are 
 # adb install [options] path -!
 #-r: Reinstall an existing app, keeping its data.
@@ -195,7 +195,6 @@ adb -s "device-udid" install "path to .apk"  #-s source/serialNumber/Identifier
     # If multiple device are connected 
     adb -s "device-udid" shell dumpsys window | find "mCurrentFocus"   
     #-s source/serialNumber/Identifier
-    
     # If executing the command on linux terminal replace find with grep
     ```
 
