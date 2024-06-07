@@ -435,7 +435,7 @@ adb devices
 </dependencies>
 ```
 
-## I personally used IntelliJ IDEA 2023.3.6 and Physical Device called Xiaomi MI 8
+## I personally used IntelliJ IDEA 2023.3.6 and Physical Device i.e. Xiaomi MI 8
 
 ### Contributing
 
