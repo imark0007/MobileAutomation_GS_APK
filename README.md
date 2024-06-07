@@ -336,8 +336,6 @@ adb devices
 
   Run Appium Inspector by clicking on and setting Remote Path →   /wd/hub
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0868e573-fa0a-4701-b392-d113241d59b7/Untitled.png)
-
 - Desired Capabilities
    - To start a session → with an only connected or running adb device and specific automation engine
      if multiple devices are connected then it will start with priority one.
